@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shanthanu Kelso — Portfolio</title>
+  <style>
+    :root { --accent:#0b63ff; --bg:#f6f7fb; --card:#fff; --muted:#666; }
+    body { margin:0; font-family: Inter, system-ui, Arial, sans-serif; background:var(--bg); color:#111; }
+    header { padding:48px 24px; text-align:center; background:linear-gradient(180deg, #fff, var(--bg)); }
+    h1{margin:0;font-size:2.2rem;}
+    p.lead{margin:8px 0 0;color:var(--muted);}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:1000px;margin:36px auto;padding:0 18px;}
+    .card{background:var(--card);border-radius:12px;padding:18px;text-align:center;box-shadow:0 6px 18px rgba(12,12,20,0.06);}
+    .card a{display:inline-block;margin-top:12px;padding:8px 14px;border-radius:8px;text-decoration:none;background:var(--accent);color:#fff;}
+    footer{padding:30px 12px;text-align:center;color:var(--muted);font-size:0.9rem;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shanthanu Kelso</h1>
+    <p class="lead">Design portfolio — posters, graphic design, projects.</p>
+  </header>
+
+  <main>
+    <section class="grid" aria-label="Sections">
+      <div class="card">
+        <h3>Posters</h3>
+        <p class="muted">A gallery of poster designs.</p>
+        <a href="/posters/">Open Posters</a>
+      </div>
+
+      <div class="card">
+        <h3>Graphic Design</h3>
+        <p class="muted">Branding and graphic work.</p>
+        <a href="/graphicdesign/">Open Graphic Design</a>
+      </div>
+
+      <div class="card">
+        <h3>Projects</h3>
+        <p class="muted">Other projects and experiments.</p>
+        <a href="/projects/">Open Projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Built with ❤️ — Published on GitHub Pages
+  </footer>
+</body>
+</html>
